@@ -15,6 +15,7 @@ build: [
 ]
 depends: [
   "dune" {build & >= "1.6.0"}
+  "ppx_expect"
 ]
 synopsis: "Primitives for Elliptic Curve Cryptography taken from Fiat"
 description: """
